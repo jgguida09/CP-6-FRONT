@@ -8,6 +8,7 @@ export default function Header({darkMode,setDarkMode}){
         <a href="#projects">Projetos</a>
         <a href="#contact">Contato</a>
         <a href="https://github.com/jgguida09" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-guida-damasceno-87013a346/" target="_blank">Linkedin</a>
         <button onClick={()=>setDarkMode(!darkMode)} className="p-2 rounded">
           {darkMode?<Sun/>:<Moon/>}
         </button>
